@@ -7,7 +7,6 @@ int main()
 {
 	int8_t zero_flag = 0; // delites all zeros at the beggining of the number
 	int decimal;
-	int int_size = sizeof(int) * CHAR_BIT;
 	int num; // number of signs
 	bool binary[sizeof(int) * CHAR_BIT];
 	scanf_s("%d%n", &decimal, &num);
