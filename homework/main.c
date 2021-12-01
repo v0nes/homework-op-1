@@ -11,12 +11,7 @@ int main()
 	int num; // number of signs
 	bool binary[sizeof(int) * CHAR_BIT];
 	scanf_s("%d%n", &decimal, &num);
-	if (num > 11 && int_size == 32)
-	{
-		printf("A lot of signs");
-		exit(-1);
-	}
-	if (num > 20 && int_size == 64)
+	if (num > 11)
 	{
 		printf("A lot of signs");
 		exit(-1);
